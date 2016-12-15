@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'VCRouter'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.summary      = 'VCRouter - prototype'
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   header_file = 'VCRouter/VCRouter/VCRouter.h'
   core_files = 'VCRouter/VCRouter/Sources/**/*.swift'
 
-  s.ios.source_files = core_files, header_file
+  s.source_files = core_files, header_file
   
   s.ios.deployment_target = '8.0'
 end

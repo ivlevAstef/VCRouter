@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class VCRouter: NSObject {
+open class VCRouter: NSObject {
 	public init(fabric: VCFabric) {
 		self.fabric = VCAutoInjectionFabric(fabric: fabric)
 	}
