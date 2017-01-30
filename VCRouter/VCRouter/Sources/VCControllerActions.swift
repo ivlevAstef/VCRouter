@@ -48,6 +48,18 @@ public final class VCControllerActions {
 			if useChildNavigation {
 				parent.title = new.title
 				parent.navigationItem.titleView = new.navigationItem.titleView
+				
+				if var items = parent.navigationItem.rightBarButtonItems {
+					items.append(contentsOf: new.navigationItem.rightBarButtonItems ?? [])
+				} else {
+					parent.navigationItem.rightBarButtonItems = new.navigationItem.rightBarButtonItems
+				}
+				
+				if var items = parent.navigationItem.leftBarButtonItems {
+					items.append(contentsOf: new.navigationItem.leftBarButtonItems ?? [])
+				} else {
+					parent.navigationItem.leftBarButtonItems = new.navigationItem.leftBarButtonItems
+				}
 			}
 		}
 		
