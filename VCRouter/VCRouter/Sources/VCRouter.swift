@@ -13,6 +13,10 @@ open class VCRouter: NSObject {
 		self.fabric = VCAutoInjectionFabric(fabric: fabric)
 	}
 	
+	public func getFabric() -> VCFabric {
+		return self.fabric
+	}
+	
 	fileprivate func add<T>(segue: T) -> T {
 		refs.append(segue)
 		return segue
