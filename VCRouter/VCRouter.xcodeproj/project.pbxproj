@@ -17,7 +17,7 @@
 		163547E51DFAA9B300D688EF /* VCRootSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D91DFAA9B300D688EF /* VCRootSegue.swift */; };
 		163547E61DFAA9B300D688EF /* VCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547DA1DFAA9B300D688EF /* VCRouter.swift */; };
 		163547E71DFAA9B300D688EF /* VCUserSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547DB1DFAA9B300D688EF /* VCUserSegue.swift */; };
-		163547E81DFAA9B300D688EF /* VCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 163547DC1DFAA9B300D688EF /* VCRouter.h */; };
+		163547E81DFAA9B300D688EF /* VCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 163547DC1DFAA9B300D688EF /* VCRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
