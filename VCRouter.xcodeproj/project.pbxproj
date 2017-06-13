@@ -7,33 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		163547DE1DFAA9B300D688EF /* VCAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D21DFAA9B300D688EF /* VCAction.swift */; };
-		163547DF1DFAA9B300D688EF /* VCAutoInjectionFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D31DFAA9B300D688EF /* VCAutoInjectionFabric.swift */; };
-		163547E01DFAA9B300D688EF /* VCContentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D41DFAA9B300D688EF /* VCContentSegue.swift */; };
-		163547E11DFAA9B300D688EF /* VCControllerActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D51DFAA9B300D688EF /* VCControllerActions.swift */; };
-		163547E21DFAA9B300D688EF /* VCFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D61DFAA9B300D688EF /* VCFabric.swift */; };
-		163547E31DFAA9B300D688EF /* VCPopSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D71DFAA9B300D688EF /* VCPopSegue.swift */; };
-		163547E41DFAA9B300D688EF /* VCPushSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D81DFAA9B300D688EF /* VCPushSegue.swift */; };
-		163547E51DFAA9B300D688EF /* VCRootSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547D91DFAA9B300D688EF /* VCRootSegue.swift */; };
-		163547E61DFAA9B300D688EF /* VCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547DA1DFAA9B300D688EF /* VCRouter.swift */; };
-		163547E71DFAA9B300D688EF /* VCUserSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163547DB1DFAA9B300D688EF /* VCUserSegue.swift */; };
-		163547E81DFAA9B300D688EF /* VCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 163547DC1DFAA9B300D688EF /* VCRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB3FA7F71EEFC8A700DCD29E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3FA7F51EEFC8A700DCD29E /* Info.plist */; };
+		BB3FA7F81EEFC8A700DCD29E /* VCRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3FA7F61EEFC8A700DCD29E /* VCRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB3FA8031EEFC9EB00DCD29E /* VCAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA7F91EEFC9EB00DCD29E /* VCAction.swift */; };
+		BB3FA8041EEFC9EB00DCD29E /* VCAutoInjectionFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA7FA1EEFC9EB00DCD29E /* VCAutoInjectionFabric.swift */; };
+		BB3FA8051EEFC9EB00DCD29E /* VCContentSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA7FB1EEFC9EB00DCD29E /* VCContentSegue.swift */; };
+		BB3FA8061EEFC9EB00DCD29E /* VCControllerActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA7FC1EEFC9EB00DCD29E /* VCControllerActions.swift */; };
+		BB3FA8071EEFC9EB00DCD29E /* VCFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA7FD1EEFC9EB00DCD29E /* VCFabric.swift */; };
+		BB3FA8081EEFC9EB00DCD29E /* VCPopSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA7FE1EEFC9EB00DCD29E /* VCPopSegue.swift */; };
+		BB3FA8091EEFC9EB00DCD29E /* VCPushSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA7FF1EEFC9EB00DCD29E /* VCPushSegue.swift */; };
+		BB3FA80A1EEFC9EB00DCD29E /* VCRootSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA8001EEFC9EB00DCD29E /* VCRootSegue.swift */; };
+		BB3FA80B1EEFC9EB00DCD29E /* VCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA8011EEFC9EB00DCD29E /* VCRouter.swift */; };
+		BB3FA80C1EEFC9EB00DCD29E /* VCUserSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3FA8021EEFC9EB00DCD29E /* VCUserSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		163547B01DFAA8A700D688EF /* VCRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VCRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		163547D01DFAA9B300D688EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		163547D21DFAA9B300D688EF /* VCAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCAction.swift; sourceTree = "<group>"; };
-		163547D31DFAA9B300D688EF /* VCAutoInjectionFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCAutoInjectionFabric.swift; sourceTree = "<group>"; };
-		163547D41DFAA9B300D688EF /* VCContentSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCContentSegue.swift; sourceTree = "<group>"; };
-		163547D51DFAA9B300D688EF /* VCControllerActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCControllerActions.swift; sourceTree = "<group>"; };
-		163547D61DFAA9B300D688EF /* VCFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCFabric.swift; sourceTree = "<group>"; };
-		163547D71DFAA9B300D688EF /* VCPopSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPopSegue.swift; sourceTree = "<group>"; };
-		163547D81DFAA9B300D688EF /* VCPushSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPushSegue.swift; sourceTree = "<group>"; };
-		163547D91DFAA9B300D688EF /* VCRootSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRootSegue.swift; sourceTree = "<group>"; };
-		163547DA1DFAA9B300D688EF /* VCRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRouter.swift; sourceTree = "<group>"; };
-		163547DB1DFAA9B300D688EF /* VCUserSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCUserSegue.swift; sourceTree = "<group>"; };
-		163547DC1DFAA9B300D688EF /* VCRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRouter.h; sourceTree = "<group>"; };
+		BB3FA7F51EEFC8A700DCD29E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
+		BB3FA7F61EEFC8A700DCD29E /* VCRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCRouter.h; path = Sources/VCRouter.h; sourceTree = SOURCE_ROOT; };
+		BB3FA7F91EEFC9EB00DCD29E /* VCAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCAction.swift; path = Sources/VCAction.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA7FA1EEFC9EB00DCD29E /* VCAutoInjectionFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCAutoInjectionFabric.swift; path = Sources/VCAutoInjectionFabric.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA7FB1EEFC9EB00DCD29E /* VCContentSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCContentSegue.swift; path = Sources/VCContentSegue.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA7FC1EEFC9EB00DCD29E /* VCControllerActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCControllerActions.swift; path = Sources/VCControllerActions.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA7FD1EEFC9EB00DCD29E /* VCFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCFabric.swift; path = Sources/VCFabric.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA7FE1EEFC9EB00DCD29E /* VCPopSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCPopSegue.swift; path = Sources/VCPopSegue.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA7FF1EEFC9EB00DCD29E /* VCPushSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCPushSegue.swift; path = Sources/VCPushSegue.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA8001EEFC9EB00DCD29E /* VCRootSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCRootSegue.swift; path = Sources/VCRootSegue.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA8011EEFC9EB00DCD29E /* VCRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCRouter.swift; path = Sources/VCRouter.swift; sourceTree = SOURCE_ROOT; };
+		BB3FA8021EEFC9EB00DCD29E /* VCUserSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCUserSegue.swift; path = Sources/VCUserSegue.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +67,9 @@
 		163547CF1DFAA9B300D688EF /* VCRouter */ = {
 			isa = PBXGroup;
 			children = (
-				163547D01DFAA9B300D688EF /* Info.plist */,
+				BB3FA7F51EEFC8A700DCD29E /* Info.plist */,
+				BB3FA7F61EEFC8A700DCD29E /* VCRouter.h */,
 				163547D11DFAA9B300D688EF /* Sources */,
-				163547DC1DFAA9B300D688EF /* VCRouter.h */,
 			);
 			path = VCRouter;
 			sourceTree = "<group>";
@@ -76,16 +77,16 @@
 		163547D11DFAA9B300D688EF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				163547D21DFAA9B300D688EF /* VCAction.swift */,
-				163547D31DFAA9B300D688EF /* VCAutoInjectionFabric.swift */,
-				163547D41DFAA9B300D688EF /* VCContentSegue.swift */,
-				163547D51DFAA9B300D688EF /* VCControllerActions.swift */,
-				163547D61DFAA9B300D688EF /* VCFabric.swift */,
-				163547D71DFAA9B300D688EF /* VCPopSegue.swift */,
-				163547D81DFAA9B300D688EF /* VCPushSegue.swift */,
-				163547D91DFAA9B300D688EF /* VCRootSegue.swift */,
-				163547DA1DFAA9B300D688EF /* VCRouter.swift */,
-				163547DB1DFAA9B300D688EF /* VCUserSegue.swift */,
+				BB3FA7F91EEFC9EB00DCD29E /* VCAction.swift */,
+				BB3FA7FA1EEFC9EB00DCD29E /* VCAutoInjectionFabric.swift */,
+				BB3FA7FB1EEFC9EB00DCD29E /* VCContentSegue.swift */,
+				BB3FA7FC1EEFC9EB00DCD29E /* VCControllerActions.swift */,
+				BB3FA7FD1EEFC9EB00DCD29E /* VCFabric.swift */,
+				BB3FA7FE1EEFC9EB00DCD29E /* VCPopSegue.swift */,
+				BB3FA7FF1EEFC9EB00DCD29E /* VCPushSegue.swift */,
+				BB3FA8001EEFC9EB00DCD29E /* VCRootSegue.swift */,
+				BB3FA8011EEFC9EB00DCD29E /* VCRouter.swift */,
+				BB3FA8021EEFC9EB00DCD29E /* VCUserSegue.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -97,7 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163547E81DFAA9B300D688EF /* VCRouter.h in Headers */,
+				BB3FA7F81EEFC8A700DCD29E /* VCRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +134,7 @@
 				TargetAttributes = {
 					163547AF1DFAA8A700D688EF = {
 						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -160,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3FA7F71EEFC8A700DCD29E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,16 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163547DF1DFAA9B300D688EF /* VCAutoInjectionFabric.swift in Sources */,
-				163547E21DFAA9B300D688EF /* VCFabric.swift in Sources */,
-				163547E51DFAA9B300D688EF /* VCRootSegue.swift in Sources */,
-				163547E71DFAA9B300D688EF /* VCUserSegue.swift in Sources */,
-				163547E31DFAA9B300D688EF /* VCPopSegue.swift in Sources */,
-				163547E61DFAA9B300D688EF /* VCRouter.swift in Sources */,
-				163547E41DFAA9B300D688EF /* VCPushSegue.swift in Sources */,
-				163547DE1DFAA9B300D688EF /* VCAction.swift in Sources */,
-				163547E11DFAA9B300D688EF /* VCControllerActions.swift in Sources */,
-				163547E01DFAA9B300D688EF /* VCContentSegue.swift in Sources */,
+				BB3FA8041EEFC9EB00DCD29E /* VCAutoInjectionFabric.swift in Sources */,
+				BB3FA8071EEFC9EB00DCD29E /* VCFabric.swift in Sources */,
+				BB3FA80A1EEFC9EB00DCD29E /* VCRootSegue.swift in Sources */,
+				BB3FA80C1EEFC9EB00DCD29E /* VCUserSegue.swift in Sources */,
+				BB3FA8081EEFC9EB00DCD29E /* VCPopSegue.swift in Sources */,
+				BB3FA80B1EEFC9EB00DCD29E /* VCRouter.swift in Sources */,
+				BB3FA8091EEFC9EB00DCD29E /* VCPushSegue.swift in Sources */,
+				BB3FA8031EEFC9EB00DCD29E /* VCAction.swift in Sources */,
+				BB3FA8061EEFC9EB00DCD29E /* VCControllerActions.swift in Sources */,
+				BB3FA8051EEFC9EB00DCD29E /* VCContentSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +296,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VCRouter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sia.VCRouter;
@@ -314,7 +316,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VCRouter/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sia.VCRouter;

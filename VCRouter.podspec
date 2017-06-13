@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   
-  header_file = 'VCRouter/VCRouter/VCRouter.h'
-  core_files = 'VCRouter/VCRouter/Sources/**/*.swift'
+  header_file = 'Sources/VCRouter.h'
+  core_files = 'Sources/**/*.swift'
 
   s.source_files = core_files, header_file
   
