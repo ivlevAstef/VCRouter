@@ -100,7 +100,8 @@ public final class VCControllerActions {
 	
 	public static func removeTo<VC: UIViewController>(_ type: VC.Type, in list: [UIViewController]) -> [UIViewController] {
 		let reversedList = list.reversed()
-		if let index = reversedList.index(where: { type(of: $0) == VC.self }) {
+		
+		if let index = reversedList.index(where: { Mirror(reflecting: $0).subjectType == type }) {
 			let distance = reversedList.distance(from: reversedList.startIndex, to: index)
 			
 			var result = list
